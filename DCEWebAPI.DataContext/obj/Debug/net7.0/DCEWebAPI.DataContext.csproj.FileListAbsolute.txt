@@ -1,0 +1,15 @@
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\bin\Debug\net7.0\DCEWebAPI.DataContext.deps.json
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\bin\Debug\net7.0\DCEWebAPI.DataContext.dll
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\bin\Debug\net7.0\DCEWebAPI.DataContext.pdb
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\bin\Debug\net7.0\DCEWebAPI.Common.dll
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\bin\Debug\net7.0\DCEWebAPI.Common.pdb
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\obj\Debug\net7.0\DCEWebAPI.DataContext.csproj.AssemblyReference.cache
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\obj\Debug\net7.0\DCEWebAPI.DataContext.GeneratedMSBuildEditorConfig.editorconfig
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\obj\Debug\net7.0\DCEWebAPI.DataContext.AssemblyInfoInputs.cache
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\obj\Debug\net7.0\DCEWebAPI.DataContext.AssemblyInfo.cs
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\obj\Debug\net7.0\DCEWebAPI.DataContext.csproj.CoreCompileInputs.cache
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\obj\Debug\net7.0\DCEWebAPI.DataContext.csproj.CopyComplete
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\obj\Debug\net7.0\DCEWebAPI.DataContext.dll
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\obj\Debug\net7.0\refint\DCEWebAPI.DataContext.dll
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\obj\Debug\net7.0\DCEWebAPI.DataContext.pdb
+D:\SE stack\.NET\DCEWebAPI\DCEWebAPI.DataContext\obj\Debug\net7.0\ref\DCEWebAPI.DataContext.dll

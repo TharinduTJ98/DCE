@@ -1,0 +1,17 @@
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\bin\Debug\net7.0\DCEWebAPI.Business.deps.json
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\bin\Debug\net7.0\DCEWebAPI.Business.dll
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\bin\Debug\net7.0\DCEWebAPI.Business.pdb
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\bin\Debug\net7.0\DCEWebAPI.Common.dll
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\bin\Debug\net7.0\DCEWebAPI.DataAccess.dll
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\bin\Debug\net7.0\DCEWebAPI.Common.pdb
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\bin\Debug\net7.0\DCEWebAPI.DataAccess.pdb
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\obj\Debug\net7.0\DCEWebAPI.Business.csproj.AssemblyReference.cache
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\obj\Debug\net7.0\DCEWebAPI.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\obj\Debug\net7.0\DCEWebAPI.Business.AssemblyInfoInputs.cache
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\obj\Debug\net7.0\DCEWebAPI.Business.AssemblyInfo.cs
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\obj\Debug\net7.0\DCEWebAPI.Business.csproj.CoreCompileInputs.cache
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\obj\Debug\net7.0\DCEWebAPI.Business.csproj.CopyComplete
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\obj\Debug\net7.0\DCEWebAPI.Business.dll
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\obj\Debug\net7.0\refint\DCEWebAPI.Business.dll
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\obj\Debug\net7.0\DCEWebAPI.Business.pdb
+D:\SE stack\.NET\DCEWebAPI\DCEWeebAPI.Business\obj\Debug\net7.0\ref\DCEWebAPI.Business.dll
