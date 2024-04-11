@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DCEWebAPI.Common.Models.Dtos
 {
-    public class CreateCustomerDto
+    public class CustomerDto
     {
         public string Username { get; set;}
         public string Email {  get; set;}

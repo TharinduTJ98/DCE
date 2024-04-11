@@ -10,9 +10,11 @@ namespace DCEWebAPI.Business.Interface
 {
     public interface ICustomerBusiness
     {
-        void CreateCustomer(CreateCustomerDto createCustomerDto);
+        void CreateCustomer(CustomerDto customerDto);
         List<Customer> GetAllCusomers();
         void UpdateCustomer(Customer customer);
         void DeleteCustomer(Guid UserId);
+        List<Order> GetActiveOrderByCustomer(Guid OrderId);
+
     }
 }

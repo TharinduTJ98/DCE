@@ -19,10 +19,10 @@ namespace DCEWebAPI.Controllers
         }
 
         [HttpPost("CreateCustomer")]
-        public IActionResult CreateCustomer(CreateCustomerDto createCustomerDto)
+        public IActionResult CreateCustomer(CustomerDto customerDto)
         {
-            _customerBusiness.CreateCustomer(createCustomerDto);
-            return Ok(createCustomerDto);
+            _customerBusiness.CreateCustomer(customerDto);
+            return Ok(customerDto);
         }
 
         [HttpGet("GetAllCustomer")]
@@ -45,7 +45,13 @@ namespace DCEWebAPI.Controllers
         public IActionResult UpdateCustomer(Guid id, Customer customer)
         {
             _customerBusiness.UpdateCustomer(customer);
-            return Ok();
+            return Ok(customer);
+        }
+
+        [HttpGet("ActiveOrders/{userId}")]
+        public ActionResult<List<Order>> GetCustomer(Guid userId)
+        {
+            return _customerBusiness.GetActiveOrderByCustomer(userId);
         }
     }
 }

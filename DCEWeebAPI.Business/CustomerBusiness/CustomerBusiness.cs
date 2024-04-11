@@ -19,7 +19,7 @@ namespace DCEWebAPI.Business.CustomerBusiness
             _customerDataAccess = customerDataAccess;
         }
 
-        public void CreateCustomer(CreateCustomerDto createCustomerDto)
+        public void CreateCustomer(CustomerDto createCustomerDto)
         {
             Customer customer = new Customer()
             {
@@ -38,6 +38,11 @@ namespace DCEWebAPI.Business.CustomerBusiness
         public void DeleteCustomer(Guid UserId)
         {
             _customerDataAccess.DeleteCustomer(UserId);
+        }
+
+        public List<Order> GetActiveOrderByCustomer(Guid OrderId)
+        {
+            return _customerDataAccess.GetActiveOrderByCustomer(OrderId);
         }
 
         public List<Customer> GetAllCusomers()

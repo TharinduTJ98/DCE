@@ -54,6 +54,37 @@ namespace DCEWebAPI.DataAccess.CustomerDataAccess
             }
         }
 
+        public List<Order> GetActiveOrderByCustomer(Guid customerId)
+        {
+            List<Order> orders = new List<Order>();
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                string query = "SELECT * FROM Orders WHERE OrderBy = @CustomerId AND IsActive = 1";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@CustomerId", customerId);
+
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    Order order = new Order
+                    {
+                        OrderId = (Guid)reader["OrderId"],
+                        ProductId = (Guid)reader["ProductId"],
+                        OrderStatus = (int)reader["OrderStatus"],
+                        OrderType = (int)reader["OrderType"],
+                        OrderBy = (Guid)reader["OrderBy"],
+                        OrderedOn = (DateTime)reader["OrderedOn"],
+                        ShippedOn = reader["ShippedOn"] != DBNull.Value ? (DateTime?)reader["ShippedOn"] : null,
+                        IsActive = (bool)reader["IsActive"]
+                    };
+                    orders.Add(order);
+                }
+            }
+            return orders;
+        }
+
         public List<Customer> GetAllCustomer()
         {
             List<Customer> customers = new List<Customer>();
